@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a6e3e9;
+    text-align: center;
+}
+
+.container {
+    width: 30rem;
+    height: 30rem;
+    background-color: grey;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.clock {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5rem auto;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.clc-num {
+    display: inline-block;
+    position: absolute;
+}
+
+.number12 {
+    font-size: 2.4rem;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.number11 {
+    font-size: 2.4rem;
+    top: 1.2rem;
+    left: 4.5rem;
+}
+
+.number1 {
+    font-size: 2.4rem;
+    top: 1.2rem;
+    right: 4.5rem;
+}
+
+.number10 {
+    font-size: 2.4rem;
+    top: 4.5rem;
+    left: 1.2rem;
+}
+
+.number2 {
+    font-size: 2.4rem;
+    top: 4.5rem;
+    right: 1.2rem;
+}
+
+.number9 {
+    font-size: 2.4rem;
+    top: 9rem;
+    left: 0;
+}
+
+.cernter {
+    font-size: 6rem;
+    top: 5rem;
+    left: 0;
+    right: 0;
+}
+
+.number3 {
+    font-size: 2.4rem;
+    top: 9rem;
+    right: 0;
+}
+
+.number8 {
+    font-size: 2.4rem;
+    top: 13.3rem;
+    left: 1.3rem;
+}
+
+.number4 {
+    font-size: 2.4rem;
+    top: 13.3rem;
+    right: 1.3rem;
+}
+
+.number7 {
+    font-size: 2.4rem;
+    top: 16.5rem;
+    left: 4.5rem;
+}
+
+.number5 {
+    font-size: 2.4rem;
+    top: 16.5rem;
+    right: 4.5rem;
+}
+
+.number6 {
+    font-size: 2.4rem;
+    top: 17.8rem;
+    left: 0;
+    right: 0;
+}
+
+.line {
+    display: inline-block;
+    position: absolute;
+    top: 11.2rem;
+    left: 10rem;
+    border-radius: 2rem;
+    background-color: black;
+    transform-origin: center left;
+}
+
+.hh {
+    height: .3rem;
+    width: 5rem;
+    z-index: 2;
+    top: 10rem;
+}
+
+.ss {
+    height: .1rem;
+    width: 7rem;
+    z-index: 4;
+    background-color: red;
+    top: 10rem;
+}
+
+.mm {
+    height: .2rem;
+    width: 6rem;
+    z-index: 3;
+    top: 10rem;
+}
